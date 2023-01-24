@@ -1,3 +1,4 @@
+### Racoon Calculator
 Racoon Calculator is a Web-Project where you are getting asked to enter a few things about yourself. For example in those questions you will be asked about your height or about your hair color. This data will then be used to determine how many racoons you are worth! It is a fun project and therefore should not be taken on a personal level!!!
 
 ### Everything about Nest, the framework I have been using
