@@ -1,0 +1,260 @@
+body, html {
+    margin: 0;
+    max-width: 100%;
+}
+
+h1 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 56px;
+}
+
+h2 {
+    font-weight: bold;
+    color: #373737;
+    font-size: 20px;
+}
+
+h4 {
+    font-weight: normal;
+    color: #373737;
+    font-size: 24px;
+}
+
+b {
+    font-weight: normal;
+    color: #373737;
+}
+
+.header-background-image {
+    max-height: 100%;
+    max-width: 100%;
+
+    background-image: url("../images/racoon_banner.jpg");
+}
+
+header {
+    width: 100%;
+    min-height: 20%;
+    max-height: 20%;
+    position: relative;
+}
+
+.header-table {
+    width: 47%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.header-table tr {
+    margin: 5%;
+}
+
+.image-icon {
+    max-height: 150px;
+    max-width: 150px;
+}
+@media (max-width:730px){
+    .content { scale(0.7) }
+}
+
+.content {
+    margin: auto;
+    width: 60%;
+    min-height: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+.content table {
+    width: 100%;
+}
+
+.content-table {
+    margin-top: 50px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+}
+
+.content-table td {
+    padding-right: 0%;
+}
+
+.content-table span {
+    float: left;
+    width: 10px;
+}
+
+.content-table .align-left {
+    width: 150px;
+    float: left;
+}
+
+.content-table .take-leftover-space {
+    width: 100%;
+}
+
+.content-inner-table tr {
+    border: 1px solid grey;
+}
+
+.content-inner-table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.content-inner-table img {
+    max-width: 80%;
+    max-height: 80%;
+
+    transition: all .2s ease-in-out;
+}
+
+.content-inner-table img:hover {
+    transform: scale(1.2);
+}
+
+hr {
+    border: 1px rgba(255,255,255,.25);
+}
+
+.content-inner-table .inner-table-background-img {
+    transition: all 2s ease-in-out 2s;
+}
+
+.content-inner-table .inner-table-background-img:hover {
+    max-height: 100%;
+    max-width: 100%;
+
+    background-image: url("../images/fade_grey.png");
+
+    animation: backgroundIMG 2s ease-in-out 2s;
+    animation-fill-mode: forwards;
+}
+
+.remove-underline a {
+    text-decoration: none;
+}
+
+.information-style {
+    float: right;
+}
+
+.information-style a {
+    text-decoration: none;
+    text-underline: #373737;
+    font-weight: normal;
+    color: #373737;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.go-back {
+    margin-top: 30%;
+}
+
+.go-back-text-style a {
+    text-decoration: none;
+}
+
+.calculate-text h3 {
+    font-family: "Consolas", Times, serif;
+    font-size: 21px;
+    font-weight: normal;
+}
+
+.form-range-style {
+    width: 70%;
+}
+
+.custom-select-style {
+    width: 200px;
+    padding: 5px;
+}
+
+.bags-style img {
+    width: 80%;
+    height:80%;
+
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.calculate-button {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.calculate-button button {
+    width: 130px;
+    height: 50px;
+}
+
+.big-text h2 {
+    font-weight: bold;
+    color: #373737;
+    font-size: 70px;
+}
+
+.result-alignment {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.calculate-again-button {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.calculate-again-button button {
+    width: 130px;
+    height: 70px;
+}
+
+.skip-transition-button {
+    text-align: right;
+}
+
+.skip-transition-button button {
+    width: 190px;
+    height: 50px;
+}
+
+.icons img {
+    width: 50px;
+    height: 50px;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+.icons img {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.result-gif img {
+    text-align: center;
+    vertical-align: middle;
+
+    height: 150px;
+    width: 150px;
+}
+
+.test {
+    outline: white;
+}

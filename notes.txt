@@ -1,0 +1,10 @@
+worth racoons male:
+
+	minimum: 10
+	maximum: 69 420
+
+	(max: 4 487, min: 2) age = ((75 + 2/69) - age) * 69
+	(max: 42 002, min: 2) height = ((220 + 2/420) - height) * 420
+	(max: 12 102, min 2) identify = (identify * 121) + 2
+	(max: 5 415, min: 2) red = 2; blonde = 187; brown = 3000; black = 4500; grey = 5415
+	(max: 5 414, min: 2) one = 2; two = 2420; three = 5414

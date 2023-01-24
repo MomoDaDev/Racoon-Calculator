@@ -1,0 +1,127 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+  <!-- Google Adsense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8669396227697871"
+          crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Racoon Calculator</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="public/css/index.css">
+</head>
+<body>
+  <!-- Header -->
+  <div class="header-background-image">
+    <header>
+      <!-- icon & text -->
+      <table class="header-table">
+        <tr>
+          <td><img class="image-icon" src="public/images/racoon_icon.png" alt="Racoon Icon"></td>
+          <td><h1>Racoon Calculator</h1></td>
+        </tr>
+      </table>
+    </header>
+  </div>
+
+  <div class="calculate-text">
+    <div class="content">
+        <table class="content-table">
+          <tr>
+            <td colspan="12"><h2>We need some information to calculate the worth of your racoon boy.</h2></td>
+          </tr>
+          <tr><td colspan="12"><hr></td></tr>
+          <tr>
+            <td colspan="1" class=""><h3>Age</h3></td>
+            <td><span></span></td>
+            <td colspan="1" class=""><h3 id="label_age">18</h3></td>
+            <td><span></span></td>
+            <td colspan="10" class="take-leftover-space">
+              <input type="range" class="form-range form-range-style" value="18" min="10" max="75" step="1" oninput="updateLabel(this.value, 'label_age', '', '')" id="r_age">
+            </td>
+          </tr>
+          <tr><td colspan="12"><hr></td></tr>
+          <tr>
+            <td colspan="1"><h3>Height (cm)</h3></td>
+            <td><span></span></td>
+            <td colspan="1"><h3 id="label_height">175</h3></td>
+            <td><span></span></td>
+            <td colspan="10">
+              <input type="range" class="form-range form-range-style" value="175" min="120" max="220" step="1" oninput="updateLabel(this.value, 'label_height', '', '')" id="r_height">
+            </td>
+          </tr>
+          <tr><td colspan="12"><hr></td></tr>
+          <tr>
+            <td colspan="1"><h3>Identifying as racoon (%)</h3></td>
+            <td><span></span></td>
+            <td colspan="1"><h3 id="label_identify_as_racoon">50</h3></td>
+            <td><span></span></td>
+            <td colspan="10">
+              <input type="range" class="form-range form-range-style" value="50" min="0" max="100" step="0.01" oninput="updateLabel(this.value, 'label_identify_as_racoon', '', '')" id="r_identify_as_racoon">
+            </td>
+          </tr>
+          <tr><td colspan="12"><hr></td></tr>
+          <tr>
+            <td colspan="2"><h3>Haircolor</h3></td>
+            <td><span></span></td>
+            <td><span></span></td>
+            <td colspan="10">
+              <form class="form-inline">
+                <select class="custom-select my-1 mr-sm-2 custom-select-style" id="r_haircolor">
+                  <option value="1" selected>brown</option>
+                  <option value="2">blonde</option>
+                  <option value="3">grey</option>
+                  <option value="4">black</option>
+                  <option value="5">red</option>
+                </select>
+              </form>
+            </td>
+          </tr>
+          <tr><td colspan="12"><hr></td></tr>
+          <tr class="bags-style">
+            <td colspan="2"><h3>Bags under eyes</h3></td>
+            <td><span></span></td>
+            <td><span></span></td>
+            <td colspan="2">
+              <label>
+                <input id="bags1" type="radio" name="bags" checked>
+                <img src="public/images/male_bags_under_eyes_1.png">
+              </label>
+            </td>
+            <td colspan="2">
+              <label>
+                <input id="bags2" type="radio" name="bags">
+                <img src="public/images/male_bags_under_eyes_2.png">
+              </label>
+            </td>
+            <td colspan="2">
+              <label>
+                <input id="bags3" type="radio" name="bags">
+                <img src="public/images/male_bags_under_eyes_3.png">
+              </label>
+            </td>
+          </tr>
+          <tr><td colspan="12"><hr></td></tr>
+          <tr>
+            <td colspan="12" class="calculate-button">
+              <button type="button" class="btn btn-secondary" onclick="calculateMale()">Calculate</button>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="12"><hr></td>
+          </tr>
+          <tr>
+            <td colspan="12">
+              <b class="information-style"><a href="privacy-statement.html">Privacy Statement</a> · <a href="imprint.html">Imprint</a></b>
+            </td>
+          </tr>
+        </table>
+    </div>
+  </div>
+
+
+  <!-- Scripts -->
+  <script src="public/js/racoon.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
